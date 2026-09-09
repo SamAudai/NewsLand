@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Api/">
+    <Project Path="NewsLand.Api/NewsLand.Api.csproj" Id="3e9d51d3-3b42-4c27-b05a-f53b50f78ae6" />
+  </Folder>
+  <Folder Name="/src/Core/">
+    <Project Path="NewsLand.Application/NewsLand.Application.csproj" />
+    <Project Path="NewsLand.Domain/NewsLand.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="NewsLand.Persistence/NewsLand.Persistence.csproj" Id="3a016042-a8a0-41dd-b1e8-495838d32c2e" />
+  </Folder>
+  <Folder Name="/src/UI/" />
+  <Folder Name="/tests/" />
+</Solution>
