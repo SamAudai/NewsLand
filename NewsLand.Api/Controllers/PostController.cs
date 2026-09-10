@@ -12,7 +12,7 @@ namespace NewsLand.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PostController : ControllerBase
+    public class PostController : Controller
     {
         private readonly IMediator _mediator;
 
@@ -46,6 +46,7 @@ namespace NewsLand.Api.Controllers
 
 
         // GET: PostController/Edit/5
+        [HttpPut("Update", Name = "UpdatePost")]
         public async Task<ActionResult> Update([FromBody] UpdatePostCommand updatePostCommand)
         {
             await _mediator.Send(updatePostCommand);
